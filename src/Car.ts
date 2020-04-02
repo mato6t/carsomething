@@ -23,7 +23,7 @@ export class Car{
         }
         switch(this.colorModule){
             case "red":
-                console.log(colors.red("this car blue"));
+                console.log(colors.red("this car red"));
                 break;
             case "blue":
                 console.log(colors.blue("this car blue"));
