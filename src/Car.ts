@@ -23,13 +23,13 @@ export class Car{
         }
         switch(this.colorModule){
             case "red":
-                console.log(colors.red("this car red"));
+                console.log(colors.red(`this car ${this.colorModule} and has ${this.wheelsModule} wheels.`));
                 break;
             case "blue":
-                console.log(colors.blue("this car blue"));
+                console.log(colors.blue(`this car ${this.colorModule} and has ${this.wheelsModule} wheels.`));
                 break;
             case "green":
-                console.log(colors.green("this car green"));
+                console.log(colors.green(`this car ${this.colorModule} and has ${this.wheelsModule} wheels.`));
                 break;
         }
     }
